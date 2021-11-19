@@ -1,4 +1,4 @@
-// Spring-gRPC-demo.  Kurt Ellington customization.
+// Spring-gRPC-demo ~>      Kurt Ellington customization.
 package com.grpc.boot.api;
 
 import org.springframework.beans.factory.annotation.Autowired;
