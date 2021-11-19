@@ -113,6 +113,7 @@ mvn compile
 ![alt text](https://res.cloudinary.com/haritkumar/image/upload/v1539852339/github/proto.png)
 
 ### Step 3 Copy all generated classes to **com.grpc.boot.pojo**
+### TODO.    Add fields.   DOB, Phone, Email
 
 ### Step 4 Add C++ server and client
 - Server **HelloWorldServiceImpl**
