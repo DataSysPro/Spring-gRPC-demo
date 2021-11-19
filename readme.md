@@ -137,8 +137,9 @@ mvn compile
 
   The PersonalInfoBlockingStub is then used to send the request towards the Hello World gRPC service. The result is a Greeting object from which we return the containing message.
 
+### Step 5.  TODO:   Take the payload and enrich it with a timestamp and set it in-memory in a C++ server fronted by gRPC. When the C++ server sets it, print a log indicating that. The client should receive a NoContent response code 
 
-### Step 5 Test Application
+### Step 6 Test Application
 - Create a test class
 ```java
 package com.grpc.boot;
