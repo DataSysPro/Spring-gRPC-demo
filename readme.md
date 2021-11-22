@@ -186,34 +186,33 @@ mvn test
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::        (v2.0.6.RELEASE)
 
-
 2021-10-18 14:32:45.092  INFO 37139 --- [           main] com.grpc.boot.GrpcApplicationTests       : Starting GrpcApplicationTests on Harits-MacBook-Air.local with PID 37139 (started by haritkumar in /Users/haritkumar/Documents/zed_i/grpc_http2_0)
-2021-10-19 12:32:45.096  INFO 37139 --- [           main] com.grpc.boot.GrpcApplicationTests       : No active profile set, falling back to default profiles: default
-2021-10-19 12:32:45.191  INFO 37139 --- [           main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@543295b0: startup date [Thu Oct 18 14:32:45 IST 2018]; root of context hierarchy
-2021-10-19 12:32:47.988  INFO 37139 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-2021-10-19 12:32:48.359  INFO 37139 --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@543295b0: startup date [Thu Oct 18 14:32:45 IST 2018]; root of context hierarchy
-2021-10-19 12:32:48.516  INFO 37139 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
-2021-10-19 12:32:48.520  INFO 37139 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
-2021-10-19 12:32:48.588  INFO 37139 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-2021-10-19 12:32:48.590  INFO 37139 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-2021-10-19 12:32:49.134  INFO 37139 --- [           main] com.grpc.boot.GrpcApplicationTests       : Started GrpcApplicationTests in 4.838 seconds (JVM running for 6.77)
-2021-10-19 12:32:49.140  INFO 37139 --- [           main] o.l.springboot.grpc.GRpcServerRunner     : Starting gRPC Server ...
-2021-10-19 12:32:49.198  INFO 37139 --- [           main] o.l.springboot.grpc.GRpcServerRunner     : 'com.grpc.boot.server.HelloWorldServiceImpl' service has been registered.
-2021-10-19 12:32:49.399  INFO 37139 --- [           main] o.l.springboot.grpc.GRpcServerRunner     : gRPC Server started, listening on port 6565.
-2021-10-19 12:32:49.726  INFO 37139 --- [           main] com.grpc.boot.client.PersonalInfoClient    : client sending first_name: "Kurt"
+202021-11-19 12:32:45.096  INFO 37139 --- [           main] com.grpc.boot.GrpcApplicationTests       : No active profile set, falling back to default profiles: default
+202021-11-19 12:32:45.191  INFO 37139 --- [           main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@543295b0: startup date [Thu Oct 18 14:32:45 IST 2018]; root of context hierarchy
+202021-11-19 12:32:47.988  INFO 37139 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+202021-11-19 12:32:48.359  INFO 37139 --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@543295b0: startup date [Thu Oct 18 14:32:45 IST 2018]; root of context hierarchy
+202021-11-19 12:32:48.516  INFO 37139 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+202021-11-19 12:32:48.520  INFO 37139 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+202021-11-19 12:32:48.588  INFO 37139 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+202021-11-19 12:32:48.590  INFO 37139 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+202021-11-19 12:32:49.134  INFO 37139 --- [           main] com.grpc.boot.GrpcApplicationTests       : Started GrpcApplicationTests in 4.838 seconds (JVM running for 6.77)
+202021-11-19 12:32:49.140  INFO 37139 --- [           main] o.l.springboot.grpc.GRpcServerRunner     : Starting gRPC Server ...
+202021-11-19 12:32:49.198  INFO 37139 --- [           main] o.l.springboot.grpc.GRpcServerRunner     : 'com.grpc.boot.server.HelloWorldServiceImpl' service has been registered.
+202021-11-19 12:32:49.399  INFO 37139 --- [           main] o.l.springboot.grpc.GRpcServerRunner     : gRPC Server started, listening on port 6565.
+202021-11-19 12:32:49.726  INFO 37139 --- [           main] com.grpc.boot.client.PersonalInfoClient    : client sending first_name: "Kurt"
 last_name: "Ellington"
 
-2021-10-19 12:32:50.266  INFO 37139 --- [ault-executor-0] c.g.boot.server.PersonalInfoImpl    : server received first_name: "Kurt"
+202021-11-19 12:32:50.266  INFO 37139 --- [ault-executor-0] c.g.boot.server.PersonalInfoImpl    : server received first_name: "Kurt"
 last_name: "Ellington"
 
-2021-10-19 12:32:50.273  INFO 37139 --- [ault-executor-0] c.g.boot.server.PersonalInfoImpl    : server responded message: "Hello Kurt Ellington!"
+202021-11-19 12:32:50.273  INFO 37139 --- [ault-executor-0] c.g.boot.server.PersonalInfoImpl    : server responded message: "Hello Kurt Ellington!"
 
-2021-10-19 12:32:50.290  INFO 37139 --- [           main] com.grpc.boot.client.PersonalInfoClient    : client received message: "Hello Kurt Ellington!"
+202021-11-19 12:32:50.290  INFO 37139 --- [           main] com.grpc.boot.client.PersonalInfoClient    : client received message: "Hello Kurt Ellington!"
 
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.432 s - in com.grpc.boot.GrpcApplicationTests
-2021-10-19 12:32:50.441  INFO 37139 --- [       Thread-3] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@543295b0: startup date [Thu Oct 18 14:32:45 IST 2018]; root of context hierarchy
-2021-10-19 12:32:50.443  INFO 37139 --- [       Thread-3] o.l.springboot.grpc.GRpcServerRunner     : Shutting down gRPC server ...
-2021-10-19 12:32:50.446  INFO 37139 --- [       Thread-3] o.l.springboot.grpc.GRpcServerRunner     : gRPC server stopped.
+202021-11-19 12:32:50.441  INFO 37139 --- [       Thread-3] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@543295b0: startup date [Thu Oct 18 14:32:45 IST 2018]; root of context hierarchy
+202021-11-19 12:32:50.443  INFO 37139 --- [       Thread-3] o.l.springboot.grpc.GRpcServerRunner     : Shutting down gRPC server ...
+202021-11-19 12:32:50.446  INFO 37139 --- [       Thread-3] o.l.springboot.grpc.GRpcServerRunner     : gRPC server stopped.
 [INFO]
 [INFO] Results:
 [INFO]
